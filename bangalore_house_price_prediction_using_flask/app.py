@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import re
-from model_deployment import predict_price
+from bangalore_house_price_prediction_using_flask.model_deployment import predict_price
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Needed for flash messages
